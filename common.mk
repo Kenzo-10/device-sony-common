@@ -52,7 +52,7 @@ PRODUCT_BUILD_RECOVERY_IMAGE := true
 
 KERNEL_PATH := kernel/sony/msm-$(SOMC_KERNEL_VERSION)
 # Sanitized prebuilt kernel headers
-#-include $(KERNEL_PATH)/common-headers/KernelHeaders.mk
+-include $(KERNEL_PATH)/common-headers/KernelHeaders.mk
 
 # Codecs Configuration
 PRODUCT_COPY_FILES += \
